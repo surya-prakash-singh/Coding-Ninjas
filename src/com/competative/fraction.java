@@ -1,4 +1,4 @@
-package com.oops;
+package com.competative;
 
 //Give me a new Fraction
 public class fraction {

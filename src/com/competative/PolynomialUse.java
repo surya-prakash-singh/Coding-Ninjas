@@ -1,4 +1,4 @@
-package com.oops;
+package com.competative;
 import java.util.Scanner;
 public class PolynomialUse {
 

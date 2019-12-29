@@ -1,4 +1,4 @@
-package com.oops;
+package com.competative;
 
 public class DynamicArrayUse {
     public static void main(String[] args) {

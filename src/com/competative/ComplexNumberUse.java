@@ -1,4 +1,4 @@
-package com.oops;
+package com.competative;
 
 public class ComplexNumberUse {
     public static void main(String[] args) {

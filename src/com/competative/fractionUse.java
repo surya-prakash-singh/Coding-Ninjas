@@ -1,4 +1,4 @@
-package com.oops;
+package com.competative;
 
 public class fractionUse {
     public static void main(String[] args) {

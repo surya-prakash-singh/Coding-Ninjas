@@ -1,4 +1,4 @@
-package com.oops;
+package com.competative;
 
 public class ComplexNumber {
     private int real;

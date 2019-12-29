@@ -1,4 +1,4 @@
-package com.oops;
+package com.competative;
 
 public class DynamicArray {
     private int[] data;
