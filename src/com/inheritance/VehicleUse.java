@@ -3,10 +3,10 @@ package com.inheritance;
 public class VehicleUse {
     public static void main(String[] args) {
         vehicle V = new vehicle();
+        vehicle v2;
         V.print();
-        Car c = new Car();
-        c.numGear = 10;
-        c.color = "red";
-        c.print();
+
+        Audi a = new Audi(5,7);
+        a.Audi();
     }
 }
