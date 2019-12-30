@@ -3,6 +3,4 @@ code-ninja-ds-algo
 Data-Structure
 Algorithm
 Java
-core
-oops
 
