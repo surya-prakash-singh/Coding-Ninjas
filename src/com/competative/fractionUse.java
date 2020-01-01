@@ -1,8 +1,8 @@
 package com.competative;
 
 public class fractionUse {
-    public static void main(String[] args) {
-        fraction f1 = new fraction(20,30);
+    public static void main(String[] args) throws Exception {
+        fraction f1 = new fraction(20,0);
         f1.print();
 
         f1.setNumerator(12);

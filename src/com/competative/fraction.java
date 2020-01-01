@@ -5,12 +5,10 @@ public class fraction {
     private int numerator;
     private int denominator;
 
-    public fraction(int numerator, int denominator){
+    public fraction(int numerator, int denominator) throws DividedByZeroExpection{
 
         this.numerator = numerator;
-        if(denominator == 0){
-            //ToDO error out
-        }
+        if(denominator == 0) throw new DividedByZeroExpection("Division by zero not possible");
         this.denominator = denominator;
         simplify();
     }
@@ -53,7 +51,7 @@ public class fraction {
 
 
 
-    public static fraction add(fraction f1, fraction f2){
+    public static fraction add(fraction f1, fraction f2) throws Exception {
         fraction f3 = new fraction(f1.numerator* f2.denominator + f2.numerator*f1.denominator, f1.denominator*f2.denominator);
       return f3;
     }
