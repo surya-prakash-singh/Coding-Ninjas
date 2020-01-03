@@ -49,7 +49,11 @@ public class CheckSorted {
         boolean ans = checkSortedBetter(arr,startIndex+1);
         return ans;
     }
-    public static void main(String[] args) {
+
+    public static boolean checkSortedBetter(int[] arr) {
+        return checkSortedBetter(arr,0);
+    }
+        public static void main(String[] args) {
         int input[] = {4,5,2,3,15};
         int input2[] = {1,2,3,4,5,6};
         System.out.println(checkSorted(input2));
