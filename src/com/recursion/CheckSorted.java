@@ -38,6 +38,17 @@ public class CheckSorted {
         boolean ans = checkSorted2(smallInput);
         return ans;
     }
+
+    public static boolean checkSortedBetter(int[] arr,int startIndex){
+        if(startIndex== arr.length-1){
+            return true;
+        }
+        if(arr[startIndex]>arr[startIndex+1]){
+            return false;
+        }
+        boolean ans = checkSortedBetter(arr,startIndex+1);
+        return ans;
+    }
     public static void main(String[] args) {
         int input[] = {4,5,2,3,15};
         int input2[] = {1,2,3,4,5,6};
